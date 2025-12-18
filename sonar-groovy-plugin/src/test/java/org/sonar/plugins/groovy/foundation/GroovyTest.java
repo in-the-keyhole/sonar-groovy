@@ -1,6 +1,6 @@
 /*
  * Sonar Groovy Plugin
- * Copyright (C) 2010-2021 SonarQube Community
+ * Copyright (C) 2010-2025 SonarQube Community
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -29,7 +29,7 @@ public class GroovyTest {
   public void test() {
     MapSettings settings = new MapSettings();
     Groovy language = new Groovy(settings.asConfig());
-    assertThat(language.getKey()).isEqualTo("grvy");
+    assertThat(language.getKey()).isEqualTo("groovy");
     assertThat(language.getName()).isEqualTo("Groovy");
     assertThat(language.getFileSuffixes()).isEqualTo(new String[] {".groovy"});
 

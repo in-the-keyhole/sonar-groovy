@@ -1,6 +1,6 @@
 /*
  * Sonar Groovy Plugin
- * Copyright (C) 2010-2021 SonarQube Community
+ * Copyright (C) 2010-2025 SonarQube Community
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -29,7 +29,7 @@ import org.sonar.api.resources.Qualifiers;
 
 public class Groovy extends AbstractLanguage {
 
-  public static final String KEY = "grvy";
+  public static final String KEY = "groovy";
   public static final String NAME = "Groovy";
   public static final String FILE_SUFFIXES_KEY = "sonar.groovy.file.suffixes";
   static final String DEFAULT_FILE_SUFFIXES = ".groovy";
